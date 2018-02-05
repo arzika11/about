@@ -1,0 +1,178 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+html, body{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.home{
+	    position: relative;
+    height: 100%;
+    background-color: #1ee9c4;
+
+}
+.home .text{
+	    position: absolute;
+    top: 50%;
+    left: 19%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text h2{
+	font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px;
+    color: #3c3c3c;
+}
+
+.text h4{
+	    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+}
+.img1{
+	height: 20%;
+	width:20%;
+	position: absolute;
+	display: inline-block;
+	left:10%;
+	top:50%;
+}
+
+
+.img2{
+	
+      height: 43%;
+    width: 26%;
+    position: absolute;
+    display: inline-block;
+    left: 37%;
+    top: 0;
+    border-radius: 0% 0% 50% 50%;
+}
+
+
+
+
+
+
+nav {
+      display: inline-block;
+    float: right;
+    background-color: #e23c63;
+    overflow: hidden;
+    border-radius: 0px 0px 0px 12px;
+}
+nav li {
+	display: inline-block;
+    list-style: none;
+    float: left;
+    /* padding-top: 1px; */
+    padding-left: 17px;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+}
+nav li a{
+	display: block;
+	color:black;
+	font-family:calibri;
+	text-decoration:none;
+	}
+
+
+.img{
+	    float: left;
+    display: inline-block;
+    width: 22%;
+    margin-right: 21px;
+
+    
+}
+
+.skill{
+	background-color: #ffcdd2;
+	overflow: hidden;
+	padding: 5%;
+}
+
+
+.skill img{
+	height: 119px;
+margin-left: 38px;
+display: inline-block;
+width: 68%;
+
+}
+
+.img p{
+	    height: 184px;
+    margin-left: 39px;
+    font-family: 'Crimson Text', serif;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.img h1{
+	  margin-left: 38px;
+
+    display: inline-block;
+    width: 100%;
+    margin-top: 21px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.work{
+	background-color: #E1BEE7;
+	overflow: hidden;
+	height: 75%;
+}
+.imgs{
+	    float: left;
+    display: inline-block;
+    width: 22%;
+    margin-right: 21px;
+
+  }
+
+  .imgs{
+	    float: left;
+    display: inline-block;
+    width: 22%;
+    margin-right: 21px;
+
+  }
+
+  .imgs{
+	    float: left;
+    display: inline-block;
+    width: 22%;
+    margin-right: 21px;
+
+  }
+
+.work img{
+	height: 340px;
+    margin-left: 198px;
+    display: inline-block;
+    width: 103%;
+    margin-top: 19px;
+
+}
+
+
+.imgs p{
+	margin-left: 198px;
+	margin-top: 5px;
+	font-family: 'PT Sans', sans-serif;
+}
