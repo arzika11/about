@@ -7,29 +7,38 @@
 html, body{
 	width: 100%;
 	height: 100%;
-	
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .home{
 	    position: relative;
     height: 100%;
-    background-color: #1ee9c4;
+background-color:#E91E63;
+
+
 
 }
 .home .text{
-	    position: absolute;
-    top: 50%;
-    left: 19%;
-    font-family: 'PT Sans', sans-serif;
+	       position: absolute;
+    top: 73%;
+    left: 36%;
+
 }
 
 .text h2{
-	font-family: 'Alegreya', serif;
+	font-family: 'Lora', serif;
     text-align: center;
     font-size: 3em;
     text-transform: uppercase;
     text-shadow: 1px 2px 3px;
     color: #3c3c3c;
+    border: 15px solid #cc6666;
+    font-weight: 100;
 }
 
 .text h4{
@@ -50,11 +59,11 @@ html, body{
 
 .img2{
 	
-      height: 43%;
-    width: 26%;
+           height: 67%;
+    width: 39%;
     position: absolute;
     display: inline-block;
-    left: 37%;
+    left: 31%;
     top: 0;
     border-radius: 0% 0% 50% 50%;
 }
@@ -70,6 +79,9 @@ nav {
     background-color: #e23c63;
     overflow: hidden;
     border-radius: 0px 0px 0px 12px;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
 }
 nav li {
 	display: inline-block;
@@ -89,6 +101,28 @@ nav li a{
 	}
 
 
+
+
+    /*Fixed Social*/
+    .fixedsocial {
+        position: fixed;
+        top: 45%;
+        background-color: rgba(0,0,0,.6);
+        color: #eee;
+        padding: 50px 0;
+    }
+
+    .fixedsocial li {
+        margin-bottom: 8px;
+    }
+
+    .fixedsocial li a {
+        padding: 10px;
+        text-decoration: none;
+        color: #eee;
+    }
+
+
 .img{
 	    float: left;
     display: inline-block;
@@ -104,7 +138,11 @@ nav li a{
 	padding: 5%;
 }
 
-
+.skill h3{
+       font-size: 40px;
+    color: #e23c63;
+    border-bottom: 10px solid;
+}
 .skill img{
 	height: 119px;
 margin-left: 38px;
@@ -132,8 +170,8 @@ width: 68%;
 
 }
 
-.work{
-	background-color: #E1BEE7;
+.doing{
+	background-color: #EC407A;
 	overflow: hidden;
 	height: 75%;
 }
@@ -161,12 +199,13 @@ width: 68%;
 
   }
 
-.work img{
+.doing img{
 	height: 340px;
     margin-left: 198px;
     display: inline-block;
     width: 103%;
     margin-top: 19px;
+    border-radius: 1px 2px 3px 4px;
 
 }
 
@@ -175,4 +214,114 @@ width: 68%;
 	margin-left: 198px;
 	margin-top: 5px;
 	font-family: 'PT Sans', sans-serif;
+}
+
+#profileSection{
+             width: 100%;
+    overflow: hidden;
+    background-color: #F8BBD0;
+    padding-left: 13%;
+    padding-top: 5%;
+}
+
+.profile h3{
+       font-size: 40px;
+    color: #e23c63;
+    border-bottom: 10px solid;
+}
+
+.profile h2{
+    padding-top: 8%;
+}
+
+.leftProfile img{
+    height: 49px;
+    margin-left: 14%;
+    display: inline-block;
+    width: 20%;
+    /* margin-top: -2px; */
+    border-radius: 1px 2px 3px 4px;
+    position: absolute;
+}
+
+
+
+.leftProfile{
+        
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    position: relative;    
+}
+
+.rightProfile{
+    width: 50%;
+    display: inline-block;
+    float: right;
+
+}
+
+.rightProfile img{
+         height: 31%;
+    width: 31%;
+    border-radius: 62%;
+    padding-top: 21%;
+}
+
+footer{
+   background-color: #E91E63;
+    /* height: 20%; */
+    color: #fff;
+    font-size: 31px;
+    text-align: center;
+    padding: 23px;
+}
+
+.tc {
+    overflow: hidden;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f8bbd0;
+}
+
+.tc ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tc ul li {
+    text-transform: uppercase;
+}
+.tc ul li a{
+    text-transform: uppercase;
+}
+
+.tc img {
+    width: 100%;
+    max-width: 21px;
+}
+
+.tc .best{
+    display: inline-block;
+    background-color: #f8bbd0;
+       width: 50%;
+}
+
+.tc .unlike{
+        float: right;
+    display: inline-block;
+    background-color: #f8bbd0;
+    width: 50%;
+}
+
+.tc .wish{
+    float: right;
+    display: inline-block;
+    background-color: #f8bbd0;
+    width: 100%;
+}
+
+.wish h4{
+    color:#444444;
 }
